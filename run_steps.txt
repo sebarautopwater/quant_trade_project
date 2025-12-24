@@ -1,0 +1,11 @@
+# create the env
+python -m venv quant_env
+
+# activate the env
+quant_env\Scripts\activate
+
+# install the required packages
+pip install -r requirements.txt
+
+# run the main
+python main.py
